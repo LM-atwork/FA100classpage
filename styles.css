@@ -1,0 +1,42 @@
+/* This style sets the backgraound color for a page */
+body {
+    background-image: linear-gradient(to bottom, purple,lightcyan);
+    vertical-align: middle;
+}
+
+/* These styles set the specific font, size, and color for different elements in the <body> of a page */
+h1 {
+    color: blue;
+    font-size: 36pt;
+    font-family: Arial;
+}
+
+h2 {
+    color: blue;
+    font-size: 30pt;
+    font-family: Arial;
+}
+
+h3 {
+    color: blue;
+    font-size: 24pt;
+    font-family: Arial;
+}
+
+p {
+    color: purple;
+    font-size: 16pt;
+    font-family: Arial;
+}
+
+li {
+    color: gray;
+    font-size: 14pt;
+    font-family: Arial;
+}
+
+a:link {
+    color: red;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
