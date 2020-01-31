@@ -1,42 +1,56 @@
 /* This style sets the backgraound color for a page */
 body {
-    background-image: linear-gradient(to bottom, purple,lightcyan);
+    background-image: linear-gradient(to bottom, cornflowerblue,lightblue);
     vertical-align: middle;
 }
 
 /* These styles set the specific font, size, and color for different elements in the <body> of a page */
 h1 {
-    color: blue;
+    color: midnightblue;
     font-size: 36pt;
     font-family: Arial;
 }
 
 h2 {
-    color: blue;
+    color: midnightblue;
     font-size: 30pt;
     font-family: Arial;
 }
 
 h3 {
-    color: blue;
+    color: midnightblue;
     font-size: 24pt;
     font-family: Arial;
 }
 
-p {
-    color: purple;
+p, div {
+    color: darkblue;
     font-size: 16pt;
     font-family: Arial;
 }
 
 li {
-    color: gray;
+    color: darkslategray;
     font-size: 14pt;
     font-family: Arial;
 }
 
 a:link {
-    color: red;
+    color: darkred;
     font-family: Helvetica;
     text-decoration: underline;
+}
+
+a:visited {
+    color:lightcoral;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
+/* This sets the style for an element class. See the <div> tag in the index.html page */
+.box {
+    border: 5px black;
+    padding: 3px;
+    width: 290px;
+    background-color: darkseagreen;
+    font-family: Arial;
 }
