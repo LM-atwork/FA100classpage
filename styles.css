@@ -1,50 +1,64 @@
 /* This style sets the backgraound color for a page */
 body {
-    background-image: linear-gradient(to bottom, cornflowerblue,lightblue);
+    background-color: #2e4364;
     vertical-align: middle;
+}
+
+nav {
+    background-color: #9cda9b;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
 }
 
 /* These styles set the specific font, size, and color for different elements in the <body> of a page */
 h1 {
-    color: midnightblue;
+    color: #f3ae75;
     font-size: 36pt;
     font-family: Arial;
 }
 
 h2 {
-    color: midnightblue;
-    font-size: 30pt;
+    color: #f3ae75;
+    font-size: 28pt;
     font-family: Arial;
 }
 
 h3 {
-    color: midnightblue;
-    font-size: 24pt;
+    color: #f3ae75;
+    font-size: 20pt;
     font-family: Arial;
 }
 
 p, div {
-    color: darkblue;
+    color: #e5da8a;
     font-size: 16pt;
     font-family: Arial;
 }
 
 li {
-    color: darkslategray;
+    color: #c3c9ab;
     font-size: 14pt;
     font-family: Arial;
 }
 
 a:link {
-    color: darkred;
+    color: #894550 ;
     font-family: Helvetica;
     text-decoration: underline;
 }
 
 a:visited {
-    color:lightcoral;
+    color: #a6aa96;
     font-family: Helvetica;
     text-decoration: underline;
+}
+
+.menu {
+    font-family: arial;
+    color: #894550;
+    margin: 15px 15px 15px 15px;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 /* This sets the style for an element class. See the <div> tag in the index.html page */
 .box {
@@ -54,3 +68,4 @@ a:visited {
     background-color: darkseagreen;
     font-family: Arial;
 }
+
